@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: 'Aoboshi One', serif;
+}
+h1{
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color:#ffb703; 
+}
+
+h2{
+    margin: 250px auto 10px;
+    width: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:#ffb703; 
+}
+h3{
+    text-align: center;
+    margin: 50px auto 50px;
+}
+h4{
+    text-align: center;
+}
+#hero-el{
+    margin: 15px auto;
+    background-image:url("images/oakdale\ sign.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+
+}
+/* activities / main section */
+.main{
+    background-color: #e63946 ;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+    margin: 15px auto 15px;
+}
+.main-activities{
+    color: aliceblue;
+    display:flex;
+    justify-content: space-around;
+}
+.activity-title {
+    padding: 8px;
+}
+.activity img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width 50%;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.activity img:hover{
+    border: 3px solid black;
+    transform: scale(1.1);
+    transition: transform 200ms, border 100ms;
+}
+
+/* contact / card section / guide */
+.guide{
+    padding: 16px;
+}
+.card{
+    max-width: 400px;
+    border: 1px solid;
+    margin: 50px auto;
+    display: flex;
+    padding: 32px;
+    background:#ffb703;
+    border-radius:10px;
+    box-shadow: 0px 6px 0px black;
+    align-items:center;
+}
+
+.card-img{
+    width: 180px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+.card-text{
+    margin-inline-start: auto;
+    width: 200px;
+    color: black;
+}
+
+.card-text p{
+    font-style:italic;
+}
+/* utility */
+.font-24{
+    font-size: 24px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+p{
+    margin: 0;
+    font-size: 14px;
+    text-align:center;
+}
